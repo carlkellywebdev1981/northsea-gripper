@@ -11,126 +11,282 @@ Mediaqueries Contents:
 
 */
 
+
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 01. Global Responsive Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 
-
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 02. Notebook Device Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1280px) {
-	
-    
-/* End of Notebook Mediaqueries */
+    /* End of Notebook Mediaqueries */
 }
-
 
 @media screen and (max-width: 1200px) {
-    
-/* End of Notebook Mediaqueries */
+    .price-section p {
+        margin-top: 0px;
+    }
+    /* End of Notebook Mediaqueries */
 }
 
+@media screen and (max-width: 1130px) {
+    .jumbotron-btn {
+        margin-top: 20px;
+    }
+    /* End of Notebook Mediaqueries */
+}
+
+@media screen and (max-width: 1025px) {
+    .jumbotron,
+    #form {
+        background-attachment: scroll;
+    }
+    .jumbotron-btn {
+        margin-top: 20px;
+    }
+    .jumbotron h1 {
+        margin-bottom: 0px;
+    }
+    .sizes {
+        margin-left: 25px;
+    }
+    /* End of Notebook Mediaqueries */
+}
 
 
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 03. Large Tablet Device Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 990px) {
-   
-/* End of Large Tablet Mediaqueries */
+    .gallery-h2 {
+        margin-top: 50px;
+    }
+    .price-section h4 {
+        font-size: 25px;
+    }
+    .sizes {
+        margin-left: 0px;
+    }
+    .jumbotron h1 {
+        text-align: left;
+    }
+    .jumbotron-btn {
+        float: left;
+        margin-left: 0px;
+    }
+    /* End of Large Tablet Mediaqueries */
 }
 
 @media screen and (max-width: 900px) {
-   
-    
-    
+    .jumbotron h1 {
+        /*font-size: 40px;*/
+    }
 }
-@media screen and (max-width: 870px) {
-    .logo {
-   
-    
-    
-}
+
+@media screen and (max-width: 870px) {}
+
 @media screen and (max-width: 820px) {
-  
     
+    .featureList {
+        padding-left: 60px;
+    }
 }
 
 
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 03. Tablet Device Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
+    .jumbotron {
+        background-image: url(../images/diving-bell-ipad.jpg);
+        padding-bottom: 50px;
+    
+    }
     .navbar-toggler {
-        font-size: 3rem;
+        font-size: 2rem;
+        padding: 0px;
+        color: #fff;
     }
-    .jumbotron, #form {
-        background-attachment: scroll;
+    .logo {
+        float: left;
+        margin-left: 100px;
+        margin-top: 200px;
+        height: 200px;
     }
+    .jumbotron h1 {
+        padding-top: 620px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .jumbotron-btn {
+        margin-left: 0px;
+        margin-top: 20px;
+        float: none;
+    }
+    .copyright,
+    .creater {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    
+    .sizes {
+        margin-left: 0px;
+    }
+    .price-section p {
+        margin-top: 0px;
+    }
+    #price form input {
+        margin-left: 5px;
+    }
+    /* End of Tablet Mediaqueries */
 }
 
 @media screen and (max-width: 767px) {
-
+    .quick {
+        margin-top: 50px;
+    }
+    .sizes {
+        margin-left: 34px;
+    }
 }
 
 @media screen and (max-width: 740px) {
-    
-        
-
-/* End of Tablet Mediaqueries */
+    .jumbotron {
+        height: 100%;
+        width: auto;
+    }
+    .logo {
+        margin-left: 80px;
+    }
+    .jumbotron-btn {
+        font-size: 20px;
+    }
+    /* End of Tablet Mediaqueries */
 }
 
 @media screen and (max-width: 600px) {
-     
-/* End of Tablet Mediaqueries */   
+    .nav-link {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .jumbotron-btn {
+        float: left;
+        margin-left: 20px;
+    }
+    .jumbotron h1 {
+        font-size: 30px;
+        margin-left: 20px;
+        text-align: left;
+        padding-top: 400px;
+    }
+    .logo {
+        margin-left: 50px;
+        height: 150px;
+    }
+    /* End of Tablet Mediaqueries */
 }
 
+@media screen and (max-width: 530px) {
+    .gallery-hr {
+        margin-bottom: 0px!important;
+    }
+    .logo {
+        height: 150px;
+    }
+    /* End of Tablet Mediaqueries */
+}
+
+
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 04. Small Device Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 500px) {
-.swiper-container {
-    width: 300px!important;
-    height: 225px!important;
-} 
     .jumbotron {
-        height: 100%;
+        background-image: url(../images/diving-bell-mob.jpg);
+        height: 90vh;
     }
-.jumbotron h1 {
-    font-size: 35px;    
-}
+    .jumbotron h1 {
+        font-size: 30px;
+        margin-left: 20px;
+        text-align: left;
+        padding-top: 400px;
+    }
+    .logo {
+        margin-top: 180px;
+        margin-left: 50px;
+    }
     .gripper-img {
-        margin-top: 30px;
+        display: none;
     }
     .paypal-button {
-        width:50%;
-        margin-top: 20px!important;
+        margin-top: 25px!important;
     }
-    #price table {
+    /*#price table {
         margin-left: 0px;
         
+    }*/
+    .swiper-container {
+        width: 350px;
+        height: 263px;
+        margin: 20px auto;
     }
-    
-     
-/* End of Small Device Mediaqueries */
+    .resp {
+        width: 350px;
+        height: 263px;
+    }
+    .jumbotron-btn {
+        margin-left: 20px;
+    }
+    #gallery hr,
+    hr {
+        width: 50%;
+    }
+    /* End of Small Device Mediaqueries */
 }
 
 
 /* ----------------------------------------------------------------------------------------------------- */
+
+
 /* 05. Mobile Device Styles */
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 400px) {
-   
-
-
-
-/* End of Mobile Device Mediaqueries */
+    .paypal-button {
+        margin-top: 25px!important;
+    }
+    .jumbotron h1 {}
+    .sizes {
+        margin-left: 26px;
+    }
+    /* End of Mobile Device Mediaqueries */
 }
-
